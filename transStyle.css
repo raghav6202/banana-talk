@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tourney:ital,wght@1,300&display=swap');
+
+
+h1{
+    font-family: 'Tourney', cursive;
+    font-size: larger;
+}
+
+body{
+
+    font-family: 'Nunito', sans-serif;
+    margin: 0px;
+
+}
+
+p{
+    font-size: larger;
+    font-weight: bolder;
+            }
+    
+    
+    #output{
+    
+       
+        box-sizing: border-box;
+   max-width: 100rem;
+    min-height: 10rem;
+    max-height: 50rem;
+   
+    border: 1px solid var(--secondar-color);
+    /* border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem; */
+    border-radius: 1.5rem;
+}
+    
+
+    :root
+    {
+      --primary-color:#93C5FD;
+      --secondar-color: black;
+    }
+
+    .heading
+    {
+
+    background-color: var(--primary-color);
+      padding: 2rem;
+     
+      margin-bottom: 1.5rem;
+      display: block;
+
+    }
+
+   
+
+    .heading-text
+    {
+        text-align: center;
+       
+    }
+
+    #btn-translate
+    {
+        background-color: var(--primary-color);
+
+        border: none;
+        margin: 1rem 0rem;
+        padding: 1rem 3rem;
+        font-family: 'Nunito', sans-serif;
+        font-size: large;
+        font-weight: bold;
+    }
+    .content
+    {
+        margin: auto;
+        padding: 1rem;
+        max-width: auto;
+        text-align: center;
+    }
+
+    #txt-input
+    {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        min-height: 20vh;
+        margin-top: 2rem;
+        font-size: large;
+        font-family: inherit;
+    }
+
+
+    /* //output padding ,output font size */
