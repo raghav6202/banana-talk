@@ -35,6 +35,8 @@ p{
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem; */
     border-radius: 1.5rem;
+    padding: 1rem;
+    font-size: large;
 }
     
 
@@ -80,6 +82,7 @@ p{
         padding: 1rem;
         max-width: auto;
         text-align: center;
+        
     }
 
     #txt-input
@@ -91,7 +94,13 @@ p{
         margin-top: 2rem;
         font-size: large;
         font-family: inherit;
+        padding: 1rem;
     }
 
+.bottom
+{
+    background-color: var(--primary-color);
+    padding: 3rem;
+}
 
     /* //output padding ,output font size */
