@@ -104,3 +104,11 @@ p{
 }
 
     /* //output padding ,output font size */
+
+
+    .foot-small
+    {
+        text-align: right;
+        color: white;
+        padding: 1rem;
+    }
