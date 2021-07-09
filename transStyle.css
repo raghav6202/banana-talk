@@ -12,6 +12,7 @@ body{
 
     font-family: 'Nunito', sans-serif;
     margin: 0px;
+    background-color: var(--primary-color);
 
 }
 
@@ -37,6 +38,7 @@ p{
     border-radius: 1.5rem;
     padding: 1rem;
     font-size: large;
+    background-color: white;
 }
     
 
@@ -78,10 +80,12 @@ p{
     }
     .content
     {
-        margin: auto;
-        padding: 1rem;
+       
+        padding: 3rem;
         max-width: auto;
         text-align: center;
+        background-image: url("https://popculturetimes.com/wp-content/uploads/2020/01/minions-2-the-rise-of-gru-is-officially-coming-in-summer-2020.jpg");
+        background-size: contain;
         
     }
 
