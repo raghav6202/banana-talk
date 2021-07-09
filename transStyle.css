@@ -85,7 +85,7 @@ p{
         max-width: auto;
         text-align: center;
         background-image: url("https://popculturetimes.com/wp-content/uploads/2020/01/minions-2-the-rise-of-gru-is-officially-coming-in-summer-2020.jpg");
-        background-size: contain;
+        background-size: cover;
         
     }
 
